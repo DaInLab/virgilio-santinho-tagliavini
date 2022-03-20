@@ -2,7 +2,8 @@ library(xlsx)
 
 setwd("C:\\Users\\virgi\\OneDrive\\Documentos\\Unesp\\IEAD2021\\topico_7\\virgilio-santinho-tagliavini")
 
-data = read.xlsx(".\\dados\\exercicio2.xls", encoding="UTF-8", sheetName="Plan1")
+#data = read.xlsx(".\\dados\\exercicio2.xls", encoding="UTF-8", sheetName="Plan1")
+data = read.xlsx("./dados/exercicio9.xls", encoding="UTF-8", sheetName="Plan1")
 
 houses = data$Casas
 
@@ -58,3 +59,4 @@ abline(h=mean, col="red")
 abline(h=0, col="gray0")
 mtext("Standard deviation = 26.076", col="blue", side=1, line=2, adj=0)
 mtext("Mean = 40.42", col="red", side=1, line=2, adj=1)
+

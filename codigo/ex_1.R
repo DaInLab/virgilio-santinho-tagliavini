@@ -2,7 +2,8 @@ library(xlsx)
 
 setwd("C:\\Users\\virgi\\OneDrive\\Documentos\\Unesp\\IEAD2021\\topico_7\\virgilio-santinho-tagliavini")
 
-dados = read.xlsx(".\\dados\\exercicio1.xls", encoding="UTF-8", sheetName="Plan1")
+#dados = read.xlsx(".\\dados\\exercicio1.xls", encoding="UTF-8", sheetName="Plan1")
+dados = read.xlsx("./dados/exercicio9.xls", encoding="UTF-8", sheetName="Plan1")
 
 juros = dados$Taxas.de.juros
 
